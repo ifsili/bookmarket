@@ -2,7 +2,7 @@ package dto;
 
 import java.util.Date;
 
-public class BookMoney {
+public class Money {
 
 	private int mem_id;
 	private int money;
