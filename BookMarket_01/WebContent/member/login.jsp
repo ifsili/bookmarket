@@ -7,8 +7,8 @@
 <title>로그인</title>
 </head>
 
-    <link href="css/login.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/login.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
     
 <script>
 function openwin() {
