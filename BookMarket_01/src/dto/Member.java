@@ -16,7 +16,7 @@ public class Member {
 	}
 	public void setMem_id(int mem_id) {
 		this.mem_id = mem_id;
-	}
+	} 
 	public String getEmail() {
 		return email;
 	}
