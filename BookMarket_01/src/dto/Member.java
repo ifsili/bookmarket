@@ -3,7 +3,7 @@ package dto;
 import java.util.Date;
 
 public class Member {
-
+ 
 	private int mem_id;
 	private String email;
 	private String pwd;
