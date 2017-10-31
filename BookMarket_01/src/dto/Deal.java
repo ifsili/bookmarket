@@ -8,7 +8,7 @@ public class Deal {
 	private int participant;
 	private Date deal_date;
 	private int deal_price;
-	
+	 
 	public int getDeal_idx() {
 		return deal_idx;
 	}
