@@ -5,7 +5,7 @@ import java.util.Date;
 public class Deal {
 
 	private int deal_idx;
-	private int participant;
+	private int participant_id;
 	private Date deal_date;
 	private int deal_price;
 	private int sold_state;
@@ -22,11 +22,11 @@ public class Deal {
 	public void setDeal_idx(int deal_idx) {
 		this.deal_idx = deal_idx;
 	}
-	public int getParticipant() {
-		return participant;
+	public int getParticipant_id() {
+		return participant_id;
 	}
-	public void setParticipant(int participant) {
-		this.participant = participant;
+	public void setParticipant(int participant_id) {
+		this.participant_id = participant_id;
 	}
 	public Date getDeal_date() {
 		return deal_date;
@@ -42,7 +42,7 @@ public class Deal {
 	}
 	@Override
 	public String toString() {
-		return "Deal [deal_idx=" + deal_idx + ", participant=" + participant + ", deal_date=" + deal_date
+		return "Deal [deal_idx=" + deal_idx + ", participant_id=" + participant_id + ", deal_date=" + deal_date
 				+ ", deal_price=" + deal_price + ", sold_state=" + sold_state + "]";
 	}
 	
