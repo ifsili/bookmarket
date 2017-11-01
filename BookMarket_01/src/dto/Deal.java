@@ -8,7 +8,14 @@ public class Deal {
 	private int participant;
 	private Date deal_date;
 	private int deal_price;
-	 
+	private int sold_state;
+	
+	public int getSold_state() {
+		return sold_state;
+	}
+	public void setSold_state(int sold_state) {
+		this.sold_state = sold_state;
+	}
 	public int getDeal_idx() {
 		return deal_idx;
 	}
@@ -36,7 +43,7 @@ public class Deal {
 	@Override
 	public String toString() {
 		return "Deal [deal_idx=" + deal_idx + ", participant=" + participant + ", deal_date=" + deal_date
-				+ ", deal_price=" + deal_price + "]";
+				+ ", deal_price=" + deal_price + ", sold_state=" + sold_state + "]";
 	}
 	
 	
